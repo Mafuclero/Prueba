@@ -9130,6 +9130,13 @@ input[type=range]::-ms-thumb {
 .col img{
   width:100%;
 }
+
+.title-about{
+  color: white;
+  border-top: 1px solid white;
+  margin-top: 50px;
+  padding-top: 22px;
+}
 @media only screen and (max-width: 600px) {
   .parallax-container {
       height: 150px;

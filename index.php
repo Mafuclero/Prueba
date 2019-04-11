@@ -5,7 +5,7 @@
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 	<link rel="stylesheet" type="text/css" href="assets/css/materialize.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/aos.js"></script>
 	<script type="text/javascript" src="assets/js/materialize.min.js"></script>
   <style>
   
@@ -18,18 +18,17 @@
     <?php include_once "componente/home.php"; ?>
     <!-- La conferencia -->
     <?php include_once "componente/conference.php"; ?>
-    
-    <div class="parallax-container">
-      <div class="parallax"><img src="https://66.media.tumblr.com/442a12264704676f2dc2438c332f33bf/tumblr_ppg95bbrxx1vg08vc_400.gif"></div>
-    </div>
+    <!-- About -->
+    <?php include_once "componente/about.php"; ?>
+    <!-- Time -->
     <div class="section white">
       <div class="row">
 	      <div class="col s11 m6 offset-m3">
 				  <div class="row">
-				    <div class="col s3"><div>930</div><div>Participants</div></div>
-            <div class="col s3"><div>250</div><div>Topics</div></div>
-            <div class="col s3"><div>40</div><div>Sessions</div></div>
-            <div class="col s3"><div>160</div><div>Speakers</div></div>
+				    <div class="col s3"><div data-aos="fade-down">930</div><div data-aos="fade-down">Participants</div></div>
+            <div class="col s3"><div data-aos="fade-down">250</div><div data-aos="fade-down">Topics</div></div>
+            <div class="col s3"><div data-aos="fade-down">40</div><div data-aos="fade-down">Sessions</div></div>
+            <div class="col s3"><div data-aos="fade-down">160</div><div data-aos="fade-down">Speakers</div></div>
           </div>
 				</div>
 		  </div>
@@ -136,8 +135,10 @@
 
 </body>
 <script type="text/javascript">
+ 
  $(document).ready(function(){
     $('.parallax').parallax();
+
   });
 </script>
 </html>
