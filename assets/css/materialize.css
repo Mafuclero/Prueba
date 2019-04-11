@@ -9092,3 +9092,46 @@ input[type=range]::-ms-thumb {
     margin-top: 1.2rem;
   }
 }
+
+/* Add Web */
+
+.parallax-content{
+  position:relative;
+  z-index:1;
+}
+.home-title{
+  color:white;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.orange-bdas{
+  background: #ff8245;
+  padding: 105px 0;
+  color:white;
+}
+.row.line .col{
+  border-top: 1px solid white;
+  color: white;
+  margin-top: 60px;
+  padding: 25px 0px 10px 15px;
+  font-size: 22px;
+  border-right: 1px solid white;
+}
+.row.line .col:last-child {
+  border-right: none;
+}
+
+.home-title h1{
+  font-size: 68px;
+  margin: 0;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.col img{
+  width:100%;
+}
+@media only screen and (max-width: 600px) {
+  .parallax-container {
+      height: 150px;
+  }
+}

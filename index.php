@@ -8,36 +8,17 @@
 	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/materialize.min.js"></script>
   <style>
-  .col img{
-    width:100%;
-  }
-  @media only screen and (max-width: 600px) {
-    .parallax-container {
-        height: 150px;
-    }
-}
+  
   </style>
 </head>
 <body>
+    <!-- Header -->
     <?php include_once "componente/header.php"; ?>
-	  <div class="parallax-container">
-      <div class="parallax"><img src="https://66.media.tumblr.com/442a12264704676f2dc2438c332f33bf/tumblr_ppg95bbrxx1vg08vc_400.gif"></div>
-    </div>
-    <div class="section white">
-        <div class="row">
-	        <div class="col s11 m6 offset-m3">
-		        <h2 class="header">The Conference</h2>
-				<div class="row">
-				    <div class="col s6">Two Days of Powerful Talks</div>
-              <div class="col s3">03 April 2023</div>
-              <div class="col s3">09:00 am</div>
-				    </div>
-            <p class="grey-text text-darken-3 lighten-3">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.​ This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company.</p>
-            <p class="grey-text text-darken-3 lighten-3">Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.</p>
-            <h1>↓ Speakers</h1> 
-		    </div>
-        </div>
-    </div>
+    <!-- Home -->
+    <?php include_once "componente/home.php"; ?>
+    <!-- La conferencia -->
+    <?php include_once "componente/conference.php"; ?>
+    
     <div class="parallax-container">
       <div class="parallax"><img src="https://66.media.tumblr.com/442a12264704676f2dc2438c332f33bf/tumblr_ppg95bbrxx1vg08vc_400.gif"></div>
     </div>
